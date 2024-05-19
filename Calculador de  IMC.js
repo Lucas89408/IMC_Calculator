@@ -19,11 +19,11 @@ console.log(myImc.toFixed(2));
 
 if (myImc < 18.5) {
   console.log(`${myImc.toFixed(2)} = Abaixo do peso.`);
-} else if (myImc >= 18.5 && myImc <= 25) {
+} else if (myImc >= 18.5 && myImc < 25) {
   console.log(`${myImc.toFixed(2)} = Peso normal.`);
-} else if (myImc >= 25 && myImc <= 38) {
+} else if (myImc >= 25 && myImc < 38) {
   console.log(`${myImc.toFixed(2)} = Acima do peso.`);
-} else if (myImc >= 38 && myImc <= 40) {
+} else if (myImc >= 38 && myImc < 40) {
   console.log(`${myImc.toFixed(2)} = Obeso.`);
 } else {
   console.log(`${myImc.toFixed(2)} = Obesidae grave.`);
